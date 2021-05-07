@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "gulp watch",
     "build:dev": "gulp build",
-    "build:prod": "gulp build --prod",
-    "prepare": "husky install"
+    "build:prod": "gulp build --prod"
   },
   "lint-staged": {
     "*.js": "eslint"
